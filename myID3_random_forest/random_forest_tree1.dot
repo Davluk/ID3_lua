@@ -1,0 +1,1389 @@
+digraph ID3_Tree {
+"0" [shape=box, style=filled, label="14
+", weight=1]
+"1" [shape=box, style=filled, label="17
+", weight=2]
+0 -> 1 [ label = "<=0.50"];
+"2" [shape=box, style=filled, label="4
+", weight=3]
+1 -> 2 [ label = "<=69.57"];
+"3" [shape=box, style=filled, label="5
+", weight=4]
+2 -> 3 [ label = "<=9.50"];
+"4" [shape=box, style=filled, label="9
+", weight=5]
+3 -> 4 [ label = "<=0.50"];
+"5" [shape=box, style=filled, label="10
+", weight=6]
+4 -> 5 [ label = "<=1.00"];
+"6" [shape=box, style=filled, label="0
+", weight=7]
+5 -> 6 [ label = "<=1.00"];
+"7" [shape=box, style=filled, label="8
+", weight=8]
+6 -> 7 [ label = "<=0.50"];
+"8" [shape=box, style=filled, label="16
+", weight=9]
+7 -> 8 [ label = "<=1.00"];
+"9" [shape=box, style=filled, label="1.0
+(1)
+", weight=10]
+8 -> 9 [ label = "<=2.50"];
+"10" [shape=box, style=filled, label="0.0
+(1)
+", weight=10]
+8 -> 10 [ label = ">2.50"];
+"11" [shape=box, style=filled, label="0.0
+(2)
+", weight=9]
+7 -> 11 [ label = ">1.00"];
+"12" [shape=box, style=filled, label="15
+", weight=8]
+6 -> 12 [ label = ">0.50"];
+"13" [shape=box, style=filled, label="2
+", weight=9]
+12 -> 13 [ label = "<=0.50"];
+"14" [shape=box, style=filled, label="8
+", weight=10]
+13 -> 14 [ label = "<=0.50"];
+"15" [shape=box, style=filled, label="0.0
+(2)
+", weight=11]
+14 -> 15 [ label = "<=1.00"];
+"16" [shape=box, style=filled, label="1.0
+(1)
+", weight=11]
+14 -> 16 [ label = ">1.00"];
+"17" [shape=box, style=filled, label="1.0
+(1)
+", weight=10]
+13 -> 17 [ label = ">0.50"];
+"18" [shape=box, style=filled, label="1.0
+(3)
+", weight=9]
+12 -> 18 [ label = ">0.50"];
+"19" [shape=box, style=filled, label="1.0
+(2)
+", weight=7]
+5 -> 19 [ label = ">1.00"];
+"20" [shape=box, style=filled, label="1.0
+(4)
+", weight=6]
+4 -> 20 [ label = ">1.00"];
+"21" [shape=box, style=filled, label="8
+", weight=5]
+3 -> 21 [ label = ">0.50"];
+"22" [shape=box, style=filled, label="16
+", weight=6]
+21 -> 22 [ label = "<=0.50"];
+"23" [shape=box, style=filled, label="12
+", weight=7]
+22 -> 23 [ label = "<=2.50"];
+"24" [shape=box, style=filled, label="3
+", weight=8]
+23 -> 24 [ label = "<=1.00"];
+"25" [shape=box, style=filled, label="11
+", weight=9]
+24 -> 25 [ label = "<=0.50"];
+"26" [shape=box, style=filled, label="10
+", weight=10]
+25 -> 26 [ label = "<=1.00"];
+"27" [shape=box, style=filled, label="2
+", weight=11]
+26 -> 27 [ label = "<=1.00"];
+"28" [shape=box, style=filled, label="7
+", weight=12]
+27 -> 28 [ label = "<=0.50"];
+"29" [shape=box, style=filled, label="1
+", weight=13]
+28 -> 29 [ label = "<=0.50"];
+"30" [shape=box, style=filled, label="9
+", weight=14]
+29 -> 30 [ label = "<=0.50"];
+"31" [shape=box, style=filled, label="0
+", weight=15]
+30 -> 31 [ label = "<=1.00"];
+"32" [shape=box, style=filled, label="6
+", weight=16]
+31 -> 32 [ label = "<=0.50"];
+"33" [shape=box, style=filled, label="13
+", weight=17]
+32 -> 33 [ label = "<=1.00"];
+"34" [shape=box, style=filled, label="1.0
+(1)
+", weight=18]
+33 -> 34 [ label = "<=1.00"];
+"35" [shape=box, style=filled, label="0.0
+(1)
+", weight=18]
+33 -> 35 [ label = ">1.00"];
+"36" [shape=box, style=filled, label="1.0
+(1)
+", weight=17]
+32 -> 36 [ label = ">1.00"];
+"37" [shape=box, style=filled, label="6
+", weight=16]
+31 -> 37 [ label = ">0.50"];
+"38" [shape=box, style=filled, label="13
+", weight=17]
+37 -> 38 [ label = "<=1.00"];
+"39" [shape=box, style=filled, label="15
+", weight=18]
+38 -> 39 [ label = "<=1.00"];
+"40" [shape=box, style=filled, label="1.0
+(1)
+", weight=19]
+39 -> 40 [ label = "<=0.50"];
+"41" [shape=box, style=filled, label="0.0
+(1)
+", weight=19]
+39 -> 41 [ label = ">0.50"];
+"42" [shape=box, style=filled, label="1.0
+(1)
+", weight=18]
+38 -> 42 [ label = ">1.00"];
+"43" [shape=box, style=filled, label="0.0
+(1)
+", weight=17]
+37 -> 43 [ label = ">1.00"];
+"44" [shape=box, style=filled, label="0.0
+(1)
+", weight=15]
+30 -> 44 [ label = ">1.00"];
+"45" [shape=box, style=filled, label="0.0
+(2)
+", weight=14]
+29 -> 45 [ label = ">0.50"];
+"46" [shape=box, style=filled, label="1.0
+(3)
+", weight=13]
+28 -> 46 [ label = ">0.50"];
+"47" [shape=box, style=filled, label="9
+", weight=12]
+27 -> 47 [ label = ">0.50"];
+"48" [shape=box, style=filled, label="0.0
+(3)
+", weight=13]
+47 -> 48 [ label = "<=1.00"];
+"49" [shape=box, style=filled, label="1.0
+(1)
+", weight=13]
+47 -> 49 [ label = ">1.00"];
+"50" [shape=box, style=filled, label="1.0
+(1)
+", weight=11]
+26 -> 50 [ label = ">1.00"];
+"51" [shape=box, style=filled, label="0.0
+(2)
+", weight=10]
+25 -> 51 [ label = ">1.00"];
+"52" [shape=box, style=filled, label="1
+", weight=9]
+24 -> 52 [ label = ">0.50"];
+"53" [shape=box, style=filled, label="0.0
+(5)
+", weight=10]
+52 -> 53 [ label = "<=0.50"];
+"54" [shape=box, style=filled, label="1.0
+(1)
+", weight=10]
+52 -> 54 [ label = ">0.50"];
+"55" [shape=box, style=filled, label="0.0
+(5)
+", weight=8]
+23 -> 55 [ label = ">1.00"];
+"56" [shape=box, style=filled, label="15
+", weight=7]
+22 -> 56 [ label = ">2.50"];
+"57" [shape=box, style=filled, label="0
+", weight=8]
+56 -> 57 [ label = "<=0.50"];
+"58" [shape=box, style=filled, label="1.0
+(1)
+", weight=9]
+57 -> 58 [ label = "<=0.50"];
+"59" [shape=box, style=filled, label="0.0
+(2)
+", weight=9]
+57 -> 59 [ label = ">0.50"];
+"60" [shape=box, style=filled, label="0
+", weight=8]
+56 -> 60 [ label = ">0.50"];
+"61" [shape=box, style=filled, label="6
+", weight=9]
+60 -> 61 [ label = "<=0.50"];
+"62" [shape=box, style=filled, label="0.0
+(1/1)
+", weight=10]
+61 -> 62 [ label = "<=1.00"];
+"63" [shape=box, style=filled, label="1.0
+(1)
+", weight=10]
+61 -> 63 [ label = ">1.00"];
+"64" [shape=box, style=filled, label="1.0
+(4)
+", weight=9]
+60 -> 64 [ label = ">0.50"];
+"65" [shape=box, style=filled, label="6
+", weight=6]
+21 -> 65 [ label = ">0.50"];
+"66" [shape=box, style=filled, label="11
+", weight=7]
+65 -> 66 [ label = "<=1.00"];
+"67" [shape=box, style=filled, label="3
+", weight=8]
+66 -> 67 [ label = "<=0.50"];
+"68" [shape=box, style=filled, label="0.0
+(6)
+", weight=9]
+67 -> 68 [ label = "<=0.50"];
+"69" [shape=box, style=filled, label="1.0
+(1)
+", weight=9]
+67 -> 69 [ label = ">0.50"];
+"70" [shape=box, style=filled, label="16
+", weight=8]
+66 -> 70 [ label = ">0.50"];
+"71" [shape=box, style=filled, label="0
+", weight=9]
+70 -> 71 [ label = "<=0.50"];
+"72" [shape=box, style=filled, label="0.0
+(1/1)
+", weight=10]
+71 -> 72 [ label = "<=0.50"];
+"73" [shape=box, style=filled, label="1.0
+(1)
+", weight=10]
+71 -> 73 [ label = ">0.50"];
+"74" [shape=box, style=filled, label="2
+", weight=9]
+70 -> 74 [ label = ">0.50"];
+"75" [shape=box, style=filled, label="0
+", weight=10]
+74 -> 75 [ label = "<=0.50"];
+"76" [shape=box, style=filled, label="3
+", weight=11]
+75 -> 76 [ label = "<=0.50"];
+"77" [shape=box, style=filled, label="1
+", weight=12]
+76 -> 77 [ label = "<=0.50"];
+"78" [shape=box, style=filled, label="15
+", weight=13]
+77 -> 78 [ label = "<=0.50"];
+"79" [shape=box, style=filled, label="0.0
+(6/4)
+", weight=14]
+78 -> 79 [ label = "<=0.50"];
+"80" [shape=box, style=filled, label="0.0
+(2/1)
+", weight=14]
+78 -> 80 [ label = ">0.50"];
+"81" [shape=box, style=filled, label="0.0
+(1)
+", weight=13]
+77 -> 81 [ label = ">0.50"];
+"82" [shape=box, style=filled, label="1.0
+(1)
+", weight=12]
+76 -> 82 [ label = ">0.50"];
+"83" [shape=box, style=filled, label="1
+", weight=11]
+75 -> 83 [ label = ">0.50"];
+"84" [shape=box, style=filled, label="3
+", weight=12]
+83 -> 84 [ label = "<=0.50"];
+"85" [shape=box, style=filled, label="15
+", weight=13]
+84 -> 85 [ label = "<=0.50"];
+"86" [shape=box, style=filled, label="0.0
+(6/2)
+", weight=14]
+85 -> 86 [ label = "<=0.50"];
+"87" [shape=box, style=filled, label="0.0
+(6/2)
+", weight=14]
+85 -> 87 [ label = ">0.50"];
+"88" [shape=box, style=filled, label="0.0
+(2)
+", weight=13]
+84 -> 88 [ label = ">0.50"];
+"89" [shape=box, style=filled, label="1.0
+(1)
+", weight=12]
+83 -> 89 [ label = ">0.50"];
+"90" [shape=box, style=filled, label="0.0
+(4)
+", weight=10]
+74 -> 90 [ label = ">0.50"];
+"91" [shape=box, style=filled, label="0.0
+(2)
+", weight=7]
+65 -> 91 [ label = ">1.00"];
+"92" [shape=box, style=filled, label="13
+", weight=4]
+2 -> 92 [ label = ">9.50"];
+"93" [shape=box, style=filled, label="16
+", weight=5]
+92 -> 93 [ label = "<=1.50"];
+"94" [shape=box, style=filled, label="10
+", weight=6]
+93 -> 94 [ label = "<=1.50"];
+"95" [shape=box, style=filled, label="3
+", weight=7]
+94 -> 95 [ label = "<=0.50"];
+"96" [shape=box, style=filled, label="8
+", weight=8]
+95 -> 96 [ label = "<=0.50"];
+"97" [shape=box, style=filled, label="6
+", weight=9]
+96 -> 97 [ label = "<=1.00"];
+"98" [shape=box, style=filled, label="0.0
+(2)
+", weight=10]
+97 -> 98 [ label = "<=0.50"];
+"99" [shape=box, style=filled, label="1.0
+(2)
+", weight=10]
+97 -> 99 [ label = ">0.50"];
+"100" [shape=box, style=filled, label="6
+", weight=9]
+96 -> 100 [ label = ">1.00"];
+"101" [shape=box, style=filled, label="0.0
+(1/1)
+", weight=10]
+100 -> 101 [ label = "<=0.50"];
+"102" [shape=box, style=filled, label="0.0
+(3)
+", weight=10]
+100 -> 102 [ label = ">0.50"];
+"103" [shape=box, style=filled, label="0.0
+(5)
+", weight=8]
+95 -> 103 [ label = ">0.50"];
+"104" [shape=box, style=filled, label="0.0
+(8)
+", weight=7]
+94 -> 104 [ label = ">0.50"];
+"105" [shape=box, style=filled, label="0.0
+(29)
+", weight=6]
+93 -> 105 [ label = ">1.50"];
+"106" [shape=box, style=filled, label="1
+", weight=5]
+92 -> 106 [ label = ">1.50"];
+"107" [shape=box, style=filled, label="5
+", weight=6]
+106 -> 107 [ label = "<=0.50"];
+"108" [shape=box, style=filled, label="0.0
+(4)
+", weight=7]
+107 -> 108 [ label = "<=0.50"];
+"109" [shape=box, style=filled, label="11
+", weight=7]
+107 -> 109 [ label = ">0.50"];
+"110" [shape=box, style=filled, label="1.0
+(2)
+", weight=8]
+109 -> 110 [ label = "<=1.00"];
+"111" [shape=box, style=filled, label="0.0
+(2)
+", weight=8]
+109 -> 111 [ label = ">1.00"];
+"112" [shape=box, style=filled, label="1.0
+(2)
+", weight=6]
+106 -> 112 [ label = ">0.50"];
+"113" [shape=box, style=filled, label="4
+", weight=3]
+1 -> 113 [ label = ">69.57"];
+"114" [shape=box, style=filled, label="16
+", weight=4]
+113 -> 114 [ label = "<=4.50"];
+"115" [shape=box, style=filled, label="6
+", weight=5]
+114 -> 115 [ label = "<=2.50"];
+"116" [shape=box, style=filled, label="3
+", weight=6]
+115 -> 116 [ label = "<=1.00"];
+"117" [shape=box, style=filled, label="7
+", weight=7]
+116 -> 117 [ label = "<=0.50"];
+"118" [shape=box, style=filled, label="1.0
+(2)
+", weight=8]
+117 -> 118 [ label = "<=0.50"];
+"119" [shape=box, style=filled, label="8
+", weight=8]
+117 -> 119 [ label = ">0.50"];
+"120" [shape=box, style=filled, label="12
+", weight=9]
+119 -> 120 [ label = "<=1.00"];
+"121" [shape=box, style=filled, label="9
+", weight=10]
+120 -> 121 [ label = "<=1.00"];
+"122" [shape=box, style=filled, label="11
+", weight=11]
+121 -> 122 [ label = "<=1.00"];
+"123" [shape=box, style=filled, label="13
+", weight=12]
+122 -> 123 [ label = "<=1.00"];
+"124" [shape=box, style=filled, label="2
+", weight=13]
+123 -> 124 [ label = "<=1.00"];
+"125" [shape=box, style=filled, label="1
+", weight=14]
+124 -> 125 [ label = "<=0.50"];
+"126" [shape=box, style=filled, label="10
+", weight=15]
+125 -> 126 [ label = "<=0.50"];
+"127" [shape=box, style=filled, label="0.0
+(1/1)
+", weight=16]
+126 -> 127 [ label = "<=1.00"];
+"128" [shape=box, style=filled, label="1.0
+(1)
+", weight=16]
+126 -> 128 [ label = ">1.00"];
+"129" [shape=box, style=filled, label="1.0
+(3)
+", weight=15]
+125 -> 129 [ label = ">0.50"];
+"130" [shape=box, style=filled, label="1
+", weight=14]
+124 -> 130 [ label = ">0.50"];
+"131" [shape=box, style=filled, label="1.0
+(1)
+", weight=15]
+130 -> 131 [ label = "<=0.50"];
+"132" [shape=box, style=filled, label="0.0
+(2)
+", weight=15]
+130 -> 132 [ label = ">0.50"];
+"133" [shape=box, style=filled, label="0.0
+(1)
+", weight=13]
+123 -> 133 [ label = ">1.00"];
+"134" [shape=box, style=filled, label="0.0
+(1)
+", weight=12]
+122 -> 134 [ label = ">1.00"];
+"135" [shape=box, style=filled, label="1.0
+(2)
+", weight=11]
+121 -> 135 [ label = ">1.00"];
+"136" [shape=box, style=filled, label="1.0
+(5)
+", weight=10]
+120 -> 136 [ label = ">1.00"];
+"137" [shape=box, style=filled, label="12
+", weight=9]
+119 -> 137 [ label = ">1.00"];
+"138" [shape=box, style=filled, label="0
+", weight=10]
+137 -> 138 [ label = "<=1.00"];
+"139" [shape=box, style=filled, label="9
+", weight=11]
+138 -> 139 [ label = "<=0.50"];
+"140" [shape=box, style=filled, label="0.0
+(1)
+", weight=12]
+139 -> 140 [ label = "<=1.00"];
+"141" [shape=box, style=filled, label="1.0
+(1)
+", weight=12]
+139 -> 141 [ label = ">1.00"];
+"142" [shape=box, style=filled, label="1.0
+(1)
+", weight=11]
+138 -> 142 [ label = ">0.50"];
+"143" [shape=box, style=filled, label="0.0
+(2)
+", weight=10]
+137 -> 143 [ label = ">1.00"];
+"144" [shape=box, style=filled, label="1.0
+(5)
+", weight=7]
+116 -> 144 [ label = ">0.50"];
+"145" [shape=box, style=filled, label="15
+", weight=6]
+115 -> 145 [ label = ">1.00"];
+"146" [shape=box, style=filled, label="1
+", weight=7]
+145 -> 146 [ label = "<=0.50"];
+"147" [shape=box, style=filled, label="1.0
+(4)
+", weight=8]
+146 -> 147 [ label = "<=0.50"];
+"148" [shape=box, style=filled, label="0.0
+(1)
+", weight=8]
+146 -> 148 [ label = ">0.50"];
+"149" [shape=box, style=filled, label="1.0
+(13)
+", weight=7]
+145 -> 149 [ label = ">0.50"];
+"150" [shape=box, style=filled, label="0
+", weight=5]
+114 -> 150 [ label = ">2.50"];
+"151" [shape=box, style=filled, label="0.0
+(3)
+", weight=6]
+150 -> 151 [ label = "<=0.50"];
+"152" [shape=box, style=filled, label="13
+", weight=6]
+150 -> 152 [ label = ">0.50"];
+"153" [shape=box, style=filled, label="1.0
+(3)
+", weight=7]
+152 -> 153 [ label = "<=1.00"];
+"154" [shape=box, style=filled, label="0.0
+(2)
+", weight=7]
+152 -> 154 [ label = ">1.00"];
+"155" [shape=box, style=filled, label="7
+", weight=4]
+113 -> 155 [ label = ">4.50"];
+"156" [shape=box, style=filled, label="0.0
+(10)
+", weight=5]
+155 -> 156 [ label = "<=0.50"];
+"157" [shape=box, style=filled, label="1
+", weight=5]
+155 -> 157 [ label = ">0.50"];
+"158" [shape=box, style=filled, label="15
+", weight=6]
+157 -> 158 [ label = "<=0.50"];
+"159" [shape=box, style=filled, label="12
+", weight=7]
+158 -> 159 [ label = "<=0.50"];
+"160" [shape=box, style=filled, label="0
+", weight=8]
+159 -> 160 [ label = "<=1.00"];
+"161" [shape=box, style=filled, label="13
+", weight=9]
+160 -> 161 [ label = "<=0.50"];
+"162" [shape=box, style=filled, label="0.0
+(2)
+", weight=10]
+161 -> 162 [ label = "<=1.00"];
+"163" [shape=box, style=filled, label="16
+", weight=10]
+161 -> 163 [ label = ">1.00"];
+"164" [shape=box, style=filled, label="0.0
+(1)
+", weight=11]
+163 -> 164 [ label = "<=0.50"];
+"165" [shape=box, style=filled, label="1.0
+(2)
+", weight=11]
+163 -> 165 [ label = ">0.50"];
+"166" [shape=box, style=filled, label="0.0
+(8)
+", weight=9]
+160 -> 166 [ label = ">0.50"];
+"167" [shape=box, style=filled, label="2
+", weight=8]
+159 -> 167 [ label = ">1.00"];
+"168" [shape=box, style=filled, label="0
+", weight=9]
+167 -> 168 [ label = "<=0.50"];
+"169" [shape=box, style=filled, label="0.0
+(1)
+", weight=10]
+168 -> 169 [ label = "<=0.50"];
+"170" [shape=box, style=filled, label="6
+", weight=10]
+168 -> 170 [ label = ">0.50"];
+"171" [shape=box, style=filled, label="1.0
+(1)
+", weight=11]
+170 -> 171 [ label = "<=1.00"];
+"172" [shape=box, style=filled, label="8
+", weight=11]
+170 -> 172 [ label = ">1.00"];
+"173" [shape=box, style=filled, label="13
+", weight=12]
+172 -> 173 [ label = "<=1.00"];
+"174" [shape=box, style=filled, label="1.0
+(1)
+", weight=13]
+173 -> 174 [ label = "<=1.00"];
+"175" [shape=box, style=filled, label="0.0
+(1)
+", weight=13]
+173 -> 175 [ label = ">1.00"];
+"176" [shape=box, style=filled, label="1.0
+(1)
+", weight=12]
+172 -> 176 [ label = ">1.00"];
+"177" [shape=box, style=filled, label="0
+", weight=9]
+167 -> 177 [ label = ">0.50"];
+"178" [shape=box, style=filled, label="3
+", weight=10]
+177 -> 178 [ label = "<=0.50"];
+"179" [shape=box, style=filled, label="0.0
+(1)
+", weight=11]
+178 -> 179 [ label = "<=0.50"];
+"180" [shape=box, style=filled, label="1.0
+(1)
+", weight=11]
+178 -> 180 [ label = ">0.50"];
+"181" [shape=box, style=filled, label="0.0
+(4)
+", weight=10]
+177 -> 181 [ label = ">0.50"];
+"182" [shape=box, style=filled, label="11
+", weight=7]
+158 -> 182 [ label = ">0.50"];
+"183" [shape=box, style=filled, label="16
+", weight=8]
+182 -> 183 [ label = "<=1.00"];
+"184" [shape=box, style=filled, label="6
+", weight=9]
+183 -> 184 [ label = "<=1.50"];
+"185" [shape=box, style=filled, label="0
+", weight=10]
+184 -> 185 [ label = "<=1.00"];
+"186" [shape=box, style=filled, label="9
+", weight=11]
+185 -> 186 [ label = "<=0.50"];
+"187" [shape=box, style=filled, label="10
+", weight=12]
+186 -> 187 [ label = "<=1.00"];
+"188" [shape=box, style=filled, label="12
+", weight=13]
+187 -> 188 [ label = "<=1.00"];
+"189" [shape=box, style=filled, label="0.0
+(1)
+", weight=14]
+188 -> 189 [ label = "<=1.00"];
+"190" [shape=box, style=filled, label="1.0
+(1)
+", weight=14]
+188 -> 190 [ label = ">1.00"];
+"191" [shape=box, style=filled, label="0.0
+(2)
+", weight=13]
+187 -> 191 [ label = ">1.00"];
+"192" [shape=box, style=filled, label="2
+", weight=12]
+186 -> 192 [ label = ">1.00"];
+"193" [shape=box, style=filled, label="1.0
+(2)
+", weight=13]
+192 -> 193 [ label = "<=0.50"];
+"194" [shape=box, style=filled, label="10
+", weight=13]
+192 -> 194 [ label = ">0.50"];
+"195" [shape=box, style=filled, label="0.0
+(1)
+", weight=14]
+194 -> 195 [ label = "<=1.00"];
+"196" [shape=box, style=filled, label="1.0
+(1)
+", weight=14]
+194 -> 196 [ label = ">1.00"];
+"197" [shape=box, style=filled, label="0.0
+(1)
+", weight=11]
+185 -> 197 [ label = ">0.50"];
+"198" [shape=box, style=filled, label="8
+", weight=10]
+184 -> 198 [ label = ">1.00"];
+"199" [shape=box, style=filled, label="1.0
+(8)
+", weight=11]
+198 -> 199 [ label = "<=1.00"];
+"200" [shape=box, style=filled, label="0
+", weight=11]
+198 -> 200 [ label = ">1.00"];
+"201" [shape=box, style=filled, label="1.0
+(2)
+", weight=12]
+200 -> 201 [ label = "<=0.50"];
+"202" [shape=box, style=filled, label="0.0
+(1)
+", weight=12]
+200 -> 202 [ label = ">0.50"];
+"203" [shape=box, style=filled, label="12
+", weight=9]
+183 -> 203 [ label = ">1.50"];
+"204" [shape=box, style=filled, label="6
+", weight=10]
+203 -> 204 [ label = "<=1.00"];
+"205" [shape=box, style=filled, label="0
+", weight=11]
+204 -> 205 [ label = "<=1.00"];
+"206" [shape=box, style=filled, label="9
+", weight=12]
+205 -> 206 [ label = "<=0.50"];
+"207" [shape=box, style=filled, label="0.0
+(1)
+", weight=13]
+206 -> 207 [ label = "<=1.00"];
+"208" [shape=box, style=filled, label="1.0
+(1)
+", weight=13]
+206 -> 208 [ label = ">1.00"];
+"209" [shape=box, style=filled, label="1.0
+(3)
+", weight=12]
+205 -> 209 [ label = ">0.50"];
+"210" [shape=box, style=filled, label="13
+", weight=11]
+204 -> 210 [ label = ">1.00"];
+"211" [shape=box, style=filled, label="8
+", weight=12]
+210 -> 211 [ label = "<=1.00"];
+"212" [shape=box, style=filled, label="2
+", weight=13]
+211 -> 212 [ label = "<=1.00"];
+"213" [shape=box, style=filled, label="0
+", weight=14]
+212 -> 213 [ label = "<=0.50"];
+"214" [shape=box, style=filled, label="1.0
+(1)
+", weight=15]
+213 -> 214 [ label = "<=0.50"];
+"215" [shape=box, style=filled, label="9
+", weight=15]
+213 -> 215 [ label = ">0.50"];
+"216" [shape=box, style=filled, label="1.0
+(1)
+", weight=16]
+215 -> 216 [ label = "<=1.00"];
+"217" [shape=box, style=filled, label="0.0
+(1)
+", weight=16]
+215 -> 217 [ label = ">1.00"];
+"218" [shape=box, style=filled, label="9
+", weight=14]
+212 -> 218 [ label = ">0.50"];
+"219" [shape=box, style=filled, label="0
+", weight=15]
+218 -> 219 [ label = "<=1.00"];
+"220" [shape=box, style=filled, label="0.0
+(1)
+", weight=16]
+219 -> 220 [ label = "<=0.50"];
+"221" [shape=box, style=filled, label="10
+", weight=16]
+219 -> 221 [ label = ">0.50"];
+"222" [shape=box, style=filled, label="0.0
+(1)
+", weight=17]
+221 -> 222 [ label = "<=1.00"];
+"223" [shape=box, style=filled, label="1.0
+(1)
+", weight=17]
+221 -> 223 [ label = ">1.00"];
+"224" [shape=box, style=filled, label="0.0
+(2)
+", weight=15]
+218 -> 224 [ label = ">1.00"];
+"225" [shape=box, style=filled, label="0.0
+(2)
+", weight=13]
+211 -> 225 [ label = ">1.00"];
+"226" [shape=box, style=filled, label="0.0
+(4)
+", weight=12]
+210 -> 226 [ label = ">1.00"];
+"227" [shape=box, style=filled, label="6
+", weight=10]
+203 -> 227 [ label = ">1.00"];
+"228" [shape=box, style=filled, label="2
+", weight=11]
+227 -> 228 [ label = "<=1.00"];
+"229" [shape=box, style=filled, label="0.0
+(3)
+", weight=12]
+228 -> 229 [ label = "<=0.50"];
+"230" [shape=box, style=filled, label="9
+", weight=12]
+228 -> 230 [ label = ">0.50"];
+"231" [shape=box, style=filled, label="1.0
+(2)
+", weight=13]
+230 -> 231 [ label = "<=1.00"];
+"232" [shape=box, style=filled, label="0.0
+(1)
+", weight=13]
+230 -> 232 [ label = ">1.00"];
+"233" [shape=box, style=filled, label="2
+", weight=11]
+227 -> 233 [ label = ">1.00"];
+"234" [shape=box, style=filled, label="3
+", weight=12]
+233 -> 234 [ label = "<=0.50"];
+"235" [shape=box, style=filled, label="9
+", weight=13]
+234 -> 235 [ label = "<=0.50"];
+"236" [shape=box, style=filled, label="13
+", weight=14]
+235 -> 236 [ label = "<=1.00"];
+"237" [shape=box, style=filled, label="1.0
+(2)
+", weight=15]
+236 -> 237 [ label = "<=1.00"];
+"238" [shape=box, style=filled, label="0.0
+(1/1)
+", weight=15]
+236 -> 238 [ label = ">1.00"];
+"239" [shape=box, style=filled, label="1.0
+(3)
+", weight=14]
+235 -> 239 [ label = ">1.00"];
+"240" [shape=box, style=filled, label="0.0
+(1)
+", weight=13]
+234 -> 240 [ label = ">0.50"];
+"241" [shape=box, style=filled, label="13
+", weight=12]
+233 -> 241 [ label = ">0.50"];
+"242" [shape=box, style=filled, label="0.0
+(1)
+", weight=13]
+241 -> 242 [ label = "<=1.00"];
+"243" [shape=box, style=filled, label="9
+", weight=13]
+241 -> 243 [ label = ">1.00"];
+"244" [shape=box, style=filled, label="1.0
+(2)
+", weight=14]
+243 -> 244 [ label = "<=1.00"];
+"245" [shape=box, style=filled, label="8
+", weight=14]
+243 -> 245 [ label = ">1.00"];
+"246" [shape=box, style=filled, label="3
+", weight=15]
+245 -> 246 [ label = "<=1.00"];
+"247" [shape=box, style=filled, label="0
+", weight=16]
+246 -> 247 [ label = "<=0.50"];
+"248" [shape=box, style=filled, label="0.0
+(1)
+", weight=17]
+247 -> 248 [ label = "<=0.50"];
+"249" [shape=box, style=filled, label="10
+", weight=17]
+247 -> 249 [ label = ">0.50"];
+"250" [shape=box, style=filled, label="1.0
+(1)
+", weight=18]
+249 -> 250 [ label = "<=1.00"];
+"251" [shape=box, style=filled, label="0.0
+(1)
+", weight=18]
+249 -> 251 [ label = ">1.00"];
+"252" [shape=box, style=filled, label="1.0
+(3)
+", weight=16]
+246 -> 252 [ label = ">0.50"];
+"253" [shape=box, style=filled, label="0.0
+(1)
+", weight=15]
+245 -> 253 [ label = ">1.00"];
+"254" [shape=box, style=filled, label="10
+", weight=8]
+182 -> 254 [ label = ">1.00"];
+"255" [shape=box, style=filled, label="0.0
+(6)
+", weight=9]
+254 -> 255 [ label = "<=1.00"];
+"256" [shape=box, style=filled, label="13
+", weight=9]
+254 -> 256 [ label = ">1.00"];
+"257" [shape=box, style=filled, label="0.0
+(3)
+", weight=10]
+256 -> 257 [ label = "<=1.00"];
+"258" [shape=box, style=filled, label="6
+", weight=10]
+256 -> 258 [ label = ">1.00"];
+"259" [shape=box, style=filled, label="0.0
+(1)
+", weight=11]
+258 -> 259 [ label = "<=1.00"];
+"260" [shape=box, style=filled, label="1.0
+(4)
+", weight=11]
+258 -> 260 [ label = ">1.00"];
+"261" [shape=box, style=filled, label="13
+", weight=6]
+157 -> 261 [ label = ">0.50"];
+"262" [shape=box, style=filled, label="15
+", weight=7]
+261 -> 262 [ label = "<=1.00"];
+"263" [shape=box, style=filled, label="0.0
+(2)
+", weight=8]
+262 -> 263 [ label = "<=0.50"];
+"264" [shape=box, style=filled, label="12
+", weight=8]
+262 -> 264 [ label = ">0.50"];
+"265" [shape=box, style=filled, label="16
+", weight=9]
+264 -> 265 [ label = "<=1.00"];
+"266" [shape=box, style=filled, label="2
+", weight=10]
+265 -> 266 [ label = "<=1.50"];
+"267" [shape=box, style=filled, label="0.0
+(2)
+", weight=11]
+266 -> 267 [ label = "<=0.50"];
+"268" [shape=box, style=filled, label="0
+", weight=11]
+266 -> 268 [ label = ">0.50"];
+"269" [shape=box, style=filled, label="1.0
+(2)
+", weight=12]
+268 -> 269 [ label = "<=0.50"];
+"270" [shape=box, style=filled, label="10
+", weight=12]
+268 -> 270 [ label = ">0.50"];
+"271" [shape=box, style=filled, label="0.0
+(2)
+", weight=13]
+270 -> 271 [ label = "<=1.00"];
+"272" [shape=box, style=filled, label="1.0
+(1)
+", weight=13]
+270 -> 272 [ label = ">1.00"];
+"273" [shape=box, style=filled, label="0
+", weight=10]
+265 -> 273 [ label = ">1.50"];
+"274" [shape=box, style=filled, label="1.0
+(5)
+", weight=11]
+273 -> 274 [ label = "<=0.50"];
+"275" [shape=box, style=filled, label="2
+", weight=11]
+273 -> 275 [ label = ">0.50"];
+"276" [shape=box, style=filled, label="1.0
+(2)
+", weight=12]
+275 -> 276 [ label = "<=0.50"];
+"277" [shape=box, style=filled, label="6
+", weight=12]
+275 -> 277 [ label = ">0.50"];
+"278" [shape=box, style=filled, label="1.0
+(1)
+", weight=13]
+277 -> 278 [ label = "<=1.00"];
+"279" [shape=box, style=filled, label="0.0
+(1/1)
+", weight=13]
+277 -> 279 [ label = ">1.00"];
+"280" [shape=box, style=filled, label="0
+", weight=9]
+264 -> 280 [ label = ">1.00"];
+"281" [shape=box, style=filled, label="0.0
+(4)
+", weight=10]
+280 -> 281 [ label = "<=0.50"];
+"282" [shape=box, style=filled, label="9
+", weight=10]
+280 -> 282 [ label = ">0.50"];
+"283" [shape=box, style=filled, label="3
+", weight=11]
+282 -> 283 [ label = "<=1.00"];
+"284" [shape=box, style=filled, label="0.0
+(2)
+", weight=12]
+283 -> 284 [ label = "<=0.50"];
+"285" [shape=box, style=filled, label="1.0
+(1)
+", weight=12]
+283 -> 285 [ label = ">0.50"];
+"286" [shape=box, style=filled, label="1.0
+(2)
+", weight=11]
+282 -> 286 [ label = ">1.00"];
+"287" [shape=box, style=filled, label="15
+", weight=7]
+261 -> 287 [ label = ">1.00"];
+"288" [shape=box, style=filled, label="1.0
+(5)
+", weight=8]
+287 -> 288 [ label = "<=0.50"];
+"289" [shape=box, style=filled, label="16
+", weight=8]
+287 -> 289 [ label = ">0.50"];
+"290" [shape=box, style=filled, label="10
+", weight=9]
+289 -> 290 [ label = "<=1.50"];
+"291" [shape=box, style=filled, label="12
+", weight=10]
+290 -> 291 [ label = "<=1.00"];
+"292" [shape=box, style=filled, label="1.0
+(2)
+", weight=11]
+291 -> 292 [ label = "<=1.00"];
+"293" [shape=box, style=filled, label="0.0
+(1)
+", weight=11]
+291 -> 293 [ label = ">1.00"];
+"294" [shape=box, style=filled, label="0.0
+(2)
+", weight=10]
+290 -> 294 [ label = ">1.00"];
+"295" [shape=box, style=filled, label="12
+", weight=9]
+289 -> 295 [ label = ">1.50"];
+"296" [shape=box, style=filled, label="2
+", weight=10]
+295 -> 296 [ label = "<=1.00"];
+"297" [shape=box, style=filled, label="9
+", weight=11]
+296 -> 297 [ label = "<=0.50"];
+"298" [shape=box, style=filled, label="1.0
+(1)
+", weight=12]
+297 -> 298 [ label = "<=1.00"];
+"299" [shape=box, style=filled, label="0.0
+(2)
+", weight=12]
+297 -> 299 [ label = ">1.00"];
+"300" [shape=box, style=filled, label="1.0
+(3)
+", weight=11]
+296 -> 300 [ label = ">0.50"];
+"301" [shape=box, style=filled, label="1.0
+(7)
+", weight=10]
+295 -> 301 [ label = ">1.00"];
+"302" [shape=box, style=filled, label="8
+", weight=2]
+0 -> 302 [ label = ">0.50"];
+"303" [shape=box, style=filled, label="17
+", weight=3]
+302 -> 303 [ label = "<=0.50"];
+"304" [shape=box, style=filled, label="16
+", weight=4]
+303 -> 304 [ label = "<=103.38"];
+"305" [shape=box, style=filled, label="0.0
+(19)
+", weight=5]
+304 -> 305 [ label = "<=0.50"];
+"306" [shape=box, style=filled, label="4
+", weight=5]
+304 -> 306 [ label = ">0.50"];
+"307" [shape=box, style=filled, label="11
+", weight=6]
+306 -> 307 [ label = "<=42.50"];
+"308" [shape=box, style=filled, label="9
+", weight=7]
+307 -> 308 [ label = "<=1.00"];
+"309" [shape=box, style=filled, label="1
+", weight=8]
+308 -> 309 [ label = "<=1.00"];
+"310" [shape=box, style=filled, label="1.0
+(5)
+", weight=9]
+309 -> 310 [ label = "<=0.50"];
+"311" [shape=box, style=filled, label="0.0
+(1)
+", weight=9]
+309 -> 311 [ label = ">0.50"];
+"312" [shape=box, style=filled, label="0.0
+(5)
+", weight=8]
+308 -> 312 [ label = ">1.00"];
+"313" [shape=box, style=filled, label="3
+", weight=7]
+307 -> 313 [ label = ">1.00"];
+"314" [shape=box, style=filled, label="12
+", weight=8]
+313 -> 314 [ label = "<=0.50"];
+"315" [shape=box, style=filled, label="1.0
+(1)
+", weight=9]
+314 -> 315 [ label = "<=1.00"];
+"316" [shape=box, style=filled, label="0.0
+(3)
+", weight=9]
+314 -> 316 [ label = ">1.00"];
+"317" [shape=box, style=filled, label="0.0
+(7)
+", weight=8]
+313 -> 317 [ label = ">0.50"];
+"318" [shape=box, style=filled, label="7
+", weight=6]
+306 -> 318 [ label = ">42.50"];
+"319" [shape=box, style=filled, label="0.0
+(13)
+", weight=7]
+318 -> 319 [ label = "<=0.50"];
+"320" [shape=box, style=filled, label="13
+", weight=7]
+318 -> 320 [ label = ">0.50"];
+"321" [shape=box, style=filled, label="0
+", weight=8]
+320 -> 321 [ label = "<=1.00"];
+"322" [shape=box, style=filled, label="0.0
+(5)
+", weight=9]
+321 -> 322 [ label = "<=0.50"];
+"323" [shape=box, style=filled, label="15
+", weight=9]
+321 -> 323 [ label = ">0.50"];
+"324" [shape=box, style=filled, label="1.0
+(1)
+", weight=10]
+323 -> 324 [ label = "<=0.50"];
+"325" [shape=box, style=filled, label="3
+", weight=10]
+323 -> 325 [ label = ">0.50"];
+"326" [shape=box, style=filled, label="10
+", weight=11]
+325 -> 326 [ label = "<=0.50"];
+"327" [shape=box, style=filled, label="1.0
+(1)
+", weight=12]
+326 -> 327 [ label = "<=1.00"];
+"328" [shape=box, style=filled, label="0.0
+(1)
+", weight=12]
+326 -> 328 [ label = ">1.00"];
+"329" [shape=box, style=filled, label="0.0
+(1)
+", weight=11]
+325 -> 329 [ label = ">0.50"];
+"330" [shape=box, style=filled, label="2
+", weight=8]
+320 -> 330 [ label = ">1.00"];
+"331" [shape=box, style=filled, label="6
+", weight=9]
+330 -> 331 [ label = "<=0.50"];
+"332" [shape=box, style=filled, label="9
+", weight=10]
+331 -> 332 [ label = "<=1.00"];
+"333" [shape=box, style=filled, label="0.0
+(1/1)
+", weight=11]
+332 -> 333 [ label = "<=1.00"];
+"334" [shape=box, style=filled, label="0.0
+(1)
+", weight=11]
+332 -> 334 [ label = ">1.00"];
+"335" [shape=box, style=filled, label="0.0
+(2)
+", weight=10]
+331 -> 335 [ label = ">1.00"];
+"336" [shape=box, style=filled, label="0.0
+(11)
+", weight=9]
+330 -> 336 [ label = ">0.50"];
+"337" [shape=box, style=filled, label="0
+", weight=4]
+303 -> 337 [ label = ">103.38"];
+"338" [shape=box, style=filled, label="4
+", weight=5]
+337 -> 338 [ label = "<=0.50"];
+"339" [shape=box, style=filled, label="1.0
+(1)
+", weight=6]
+338 -> 339 [ label = "<=48.00"];
+"340" [shape=box, style=filled, label="0.0
+(7)
+", weight=6]
+338 -> 340 [ label = ">48.00"];
+"341" [shape=box, style=filled, label="2
+", weight=5]
+337 -> 341 [ label = ">0.50"];
+"342" [shape=box, style=filled, label="1.0
+(4)
+", weight=6]
+341 -> 342 [ label = "<=0.50"];
+"343" [shape=box, style=filled, label="4
+", weight=6]
+341 -> 343 [ label = ">0.50"];
+"344" [shape=box, style=filled, label="0.0
+(2)
+", weight=7]
+343 -> 344 [ label = "<=60.50"];
+"345" [shape=box, style=filled, label="0.0
+(1/1)
+", weight=7]
+343 -> 345 [ label = ">60.50"];
+"346" [shape=box, style=filled, label="17
+", weight=3]
+302 -> 346 [ label = ">0.50"];
+"347" [shape=box, style=filled, label="4
+", weight=4]
+346 -> 347 [ label = "<=93.18"];
+"348" [shape=box, style=filled, label="15
+", weight=5]
+347 -> 348 [ label = "<=53.50"];
+"349" [shape=box, style=filled, label="0
+", weight=6]
+348 -> 349 [ label = "<=0.50"];
+"350" [shape=box, style=filled, label="16
+", weight=7]
+349 -> 350 [ label = "<=0.50"];
+"351" [shape=box, style=filled, label="3
+", weight=8]
+350 -> 351 [ label = "<=1.50"];
+"352" [shape=box, style=filled, label="7
+", weight=9]
+351 -> 352 [ label = "<=0.50"];
+"353" [shape=box, style=filled, label="0.0
+(5)
+", weight=10]
+352 -> 353 [ label = "<=1.00"];
+"354" [shape=box, style=filled, label="2
+", weight=10]
+352 -> 354 [ label = ">1.00"];
+"355" [shape=box, style=filled, label="6
+", weight=11]
+354 -> 355 [ label = "<=0.50"];
+"356" [shape=box, style=filled, label="0.0
+(3)
+", weight=12]
+355 -> 356 [ label = "<=1.00"];
+"357" [shape=box, style=filled, label="0.0
+(3/1)
+", weight=12]
+355 -> 357 [ label = ">1.00"];
+"358" [shape=box, style=filled, label="1.0
+(1)
+", weight=11]
+354 -> 358 [ label = ">0.50"];
+"359" [shape=box, style=filled, label="0.0
+(7)
+", weight=9]
+351 -> 359 [ label = ">0.50"];
+"360" [shape=box, style=filled, label="0.0
+(12)
+", weight=8]
+350 -> 360 [ label = ">1.50"];
+"361" [shape=box, style=filled, label="0.0
+(38)
+", weight=7]
+349 -> 361 [ label = ">0.50"];
+"362" [shape=box, style=filled, label="16
+", weight=6]
+348 -> 362 [ label = ">0.50"];
+"363" [shape=box, style=filled, label="0.0
+(15)
+", weight=7]
+362 -> 363 [ label = "<=1.50"];
+"364" [shape=box, style=filled, label="6
+", weight=7]
+362 -> 364 [ label = ">1.50"];
+"365" [shape=box, style=filled, label="0
+", weight=8]
+364 -> 365 [ label = "<=0.50"];
+"366" [shape=box, style=filled, label="0.0
+(6)
+", weight=9]
+365 -> 366 [ label = "<=0.50"];
+"367" [shape=box, style=filled, label="2
+", weight=9]
+365 -> 367 [ label = ">0.50"];
+"368" [shape=box, style=filled, label="7
+", weight=10]
+367 -> 368 [ label = "<=0.50"];
+"369" [shape=box, style=filled, label="0.0
+(1)
+", weight=11]
+368 -> 369 [ label = "<=1.00"];
+"370" [shape=box, style=filled, label="1.0
+(1)
+", weight=11]
+368 -> 370 [ label = ">1.00"];
+"371" [shape=box, style=filled, label="0.0
+(2)
+", weight=10]
+367 -> 371 [ label = ">0.50"];
+"372" [shape=box, style=filled, label="3
+", weight=8]
+364 -> 372 [ label = ">0.50"];
+"373" [shape=box, style=filled, label="9
+", weight=9]
+372 -> 373 [ label = "<=0.50"];
+"374" [shape=box, style=filled, label="0.0
+(2)
+", weight=10]
+373 -> 374 [ label = "<=1.00"];
+"375" [shape=box, style=filled, label="5
+", weight=10]
+373 -> 375 [ label = ">1.00"];
+"376" [shape=box, style=filled, label="0.0
+(1)
+", weight=11]
+375 -> 376 [ label = "<=0.50"];
+"377" [shape=box, style=filled, label="1.0
+(1)
+", weight=11]
+375 -> 377 [ label = ">0.50"];
+"378" [shape=box, style=filled, label="1.0
+(1)
+", weight=9]
+372 -> 378 [ label = ">0.50"];
+"379" [shape=box, style=filled, label="0.0
+(87)
+", weight=5]
+347 -> 379 [ label = ">53.50"];
+"380" [shape=box, style=filled, label="16
+", weight=4]
+346 -> 380 [ label = ">93.18"];
+"381" [shape=box, style=filled, label="4
+", weight=5]
+380 -> 381 [ label = "<=0.50"];
+"382" [shape=box, style=filled, label="10
+", weight=6]
+381 -> 382 [ label = "<=70.50"];
+"383" [shape=box, style=filled, label="0.0
+(2)
+", weight=7]
+382 -> 383 [ label = "<=1.00"];
+"384" [shape=box, style=filled, label="11
+", weight=7]
+382 -> 384 [ label = ">1.00"];
+"385" [shape=box, style=filled, label="1
+", weight=8]
+384 -> 385 [ label = "<=1.00"];
+"386" [shape=box, style=filled, label="0.0
+(1)
+", weight=9]
+385 -> 386 [ label = "<=0.50"];
+"387" [shape=box, style=filled, label="1.0
+(1)
+", weight=9]
+385 -> 387 [ label = ">0.50"];
+"388" [shape=box, style=filled, label="1.0
+(3)
+", weight=8]
+384 -> 388 [ label = ">1.00"];
+"389" [shape=box, style=filled, label="0.0
+(6)
+", weight=6]
+381 -> 389 [ label = ">70.50"];
+"390" [shape=box, style=filled, label="0.0
+(22)
+", weight=5]
+380 -> 390 [ label = ">0.50"];
+{rank=same; 0;};
+{rank=same; 9;10;14;17;26;51;53;54;62;63;72;73;75;90;98;99;101;102;121;136;138;143;162;163;169;170;178;181;185;198;204;227;257;258;266;273;281;282;291;294;296;301;324;325;332;335;353;354;368;371;374;375;};
+{rank=same; 15;16;27;50;76;83;122;135;139;142;164;165;171;172;179;180;186;197;199;200;205;210;228;233;259;260;267;268;274;275;283;286;292;293;297;300;326;329;333;334;355;358;369;370;376;377;};
+{rank=same; 28;47;77;82;84;89;123;134;140;141;173;176;187;192;201;202;206;209;211;226;229;230;234;241;269;270;276;277;284;285;298;299;327;328;356;357;};
+{rank=same; 29;46;48;49;78;81;85;88;124;133;174;175;188;191;193;194;207;208;212;225;231;232;235;240;242;243;271;272;278;279;};
+{rank=same; 30;45;79;80;86;87;125;130;189;190;195;196;213;218;236;239;244;245;};
+{rank=same; 31;44;126;129;131;132;214;215;219;224;237;238;246;253;};
+{rank=same; 32;37;127;128;216;217;220;221;247;252;};
+{rank=same; 33;36;38;43;222;223;248;249;};
+{rank=same; 34;35;39;42;250;251;};
+{rank=same; 40;41;};
+{rank=same; 1;302;};
+{rank=same; 2;113;303;346;};
+{rank=same; 3;92;114;155;304;337;347;380;};
+{rank=same; 4;21;93;106;115;150;156;157;305;306;338;341;348;379;381;390;};
+{rank=same; 5;20;22;65;94;105;107;112;116;145;151;152;158;261;307;318;339;340;342;343;349;362;382;389;};
+{rank=same; 6;19;23;56;66;91;95;104;108;109;117;144;146;149;153;154;159;182;262;287;308;313;319;320;344;345;350;361;363;364;383;384;};
+{rank=same; 7;12;24;55;57;60;67;70;96;103;110;111;118;119;147;148;160;167;183;254;263;264;288;289;309;312;314;317;321;330;351;360;365;372;385;388;};
+{rank=same; 8;11;13;18;25;52;58;59;61;64;68;69;71;74;97;100;120;137;161;166;168;177;184;203;255;256;265;280;290;295;310;311;315;316;322;323;331;336;352;359;366;367;373;378;386;387;};
+}
