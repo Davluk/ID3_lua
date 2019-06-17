@@ -1,0 +1,12 @@
+el archivo presente describe las instrucciones de uso necesarias para poder ejecutar el archivo arbol.py
+
+bibliotecas requeridas: Sklearn, random, numpy, pandas, id3
+sklearn nos sirve para subdividir los datos y tratarlos para que sean validos para el creador de arboles de id3
+se usó este por que el que implementa sklearn.tree es bastante burdo y tiene tantas opciones inecesarias para nuestros
+propositos como es posible, por lo que en orden de simpleza mejor se utilizo id3.
+
+el programa cuenta con 3 secciones 
+
+la lectura de los datos
+la separacion de los datos en porcentajes del conjunto
+la creacion del arbol 
